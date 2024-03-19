@@ -1,7 +1,7 @@
-name: CI/CD iOS
-
 permissions:
   contents: read
+  
+name: CI/CD iOS
 
 on:
   push:
