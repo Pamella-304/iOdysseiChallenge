@@ -28,4 +28,4 @@ jobs:
 
     - name: Build and test iOS app
       run: |
-        xcodebuild -workspace iOdysseiChallenge.xcworkspace -scheme iOdysseiChallenge -destination 'platform=iOS Simulator,name=iPhone 13' clean build test
+        xcodebuild -workspace iOdysseiChallenge.xcworkspace -scheme iOdyssey -destination 'platform=iOS Simulator,name=iPhone 13' clean build test
